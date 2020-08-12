@@ -1,0 +1,215 @@
+<?xml version = "1.0"?>
+<?pyignition version = "1.000000"?>
+
+<effect>
+	<source>
+		<pos>(0, 0)</pos>
+		<initspeed>2.000000</initspeed>
+		<initdirection>3.141593</initdirection>
+		<initspeedrandrange>1.000000</initspeedrandrange>
+		<initdirectionrandrange>3.141593</initdirectionrandrange>
+		<particlesperframe>20</particlesperframe>
+		<particlelife>80</particlelife>
+		<genspacing>0</genspacing>
+		<drawtype>circle</drawtype>
+		<colour>(100, 100, 250)</colour>
+		<radius>10.000000</radius>
+		<length>0.000000</length>
+		<imagepath>None</imagepath>
+		<keyframes>
+		</keyframes>
+		<particlekeyframes>
+			<keyframe frame = "60">
+				<colour_r>100</colour_r>
+				<colour_g>100</colour_g>
+				<colour_b>250</colour_b>
+				<radius>10.0</radius>
+				<length>None</length>
+				<interpolationtype>linear</interpolationtype>
+			</keyframe>
+			<keyframe frame = "80">
+				<colour_r>255</colour_r>
+				<colour_g>255</colour_g>
+				<colour_b>255</colour_b>
+				<radius>20.0</radius>
+				<length>None</length>
+				<interpolationtype>linear</interpolationtype>
+			</keyframe>
+		</particlekeyframes>
+	</source>
+
+	<directedgravity>
+		<strength>0.200000</strength>
+		<strengthrandrange>0.000000</strengthrandrange>
+		<direction>(0.000000, 1.000000)</direction>
+		<keyframes>
+		</keyframes>
+	</directedgravity>
+
+	<circle>
+		<pos>(100, 200)</pos>
+		<colour>(0, 0, 0)</colour>
+		<bounce>0.100000</bounce>
+		<radius>50.000000</radius>
+		<keyframes>
+		</keyframes>
+	</circle>
+
+	<circle>
+		<pos>(400, 100)</pos>
+		<colour>(0, 0, 0)</colour>
+		<bounce>0.100000</bounce>
+		<radius>50.000000</radius>
+		<keyframes>
+			<keyframe frame = "250">
+				<pos_x>400</pos_x>
+				<pos_y>500</pos_y>
+				<colour_r>None</colour_r>
+				<colour_g>None</colour_g>
+				<colour_b>None</colour_b>
+				<bounce>None</bounce>
+				<radius>None</radius>
+				<interpolationtype>cosine</interpolationtype>
+			</keyframe>
+			<keyframe frame = "300">
+				<pos_x>None</pos_x>
+				<pos_y>None</pos_y>
+				<colour_r>0</colour_r>
+				<colour_g>255</colour_g>
+				<colour_b>50</colour_b>
+				<bounce>None</bounce>
+				<radius>None</radius>
+				<interpolationtype>linear</interpolationtype>
+			</keyframe>
+		</keyframes>
+	</circle>
+
+	<circle>
+		<pos>(300, 300)</pos>
+		<colour>(0, 0, 0)</colour>
+		<bounce>0.100000</bounce>
+		<radius>50.000000</radius>
+		<keyframes>
+		</keyframes>
+	</circle>
+
+	<circle>
+		<pos>(500, 250)</pos>
+		<colour>(0, 0, 0)</colour>
+		<bounce>0.100000</bounce>
+		<radius>50.000000</radius>
+		<keyframes>
+			<keyframe frame = "200">
+				<pos_x>500</pos_x>
+				<pos_y>250</pos_y>
+				<colour_r>None</colour_r>
+				<colour_g>None</colour_g>
+				<colour_b>None</colour_b>
+				<bounce>None</bounce>
+				<radius>None</radius>
+				<interpolationtype>linear</interpolationtype>
+			</keyframe>
+			<keyframe frame = "230">
+				<pos_x>100</pos_x>
+				<pos_y>300</pos_y>
+				<colour_r>None</colour_r>
+				<colour_g>None</colour_g>
+				<colour_b>None</colour_b>
+				<bounce>None</bounce>
+				<radius>None</radius>
+				<interpolationtype>cosine</interpolationtype>
+			</keyframe>
+		</keyframes>
+	</circle>
+
+	<circle>
+		<pos>(150, 400)</pos>
+		<colour>(0, 0, 0)</colour>
+		<bounce>0.100000</bounce>
+		<radius>50.000000</radius>
+		<keyframes>
+		</keyframes>
+	</circle>
+
+	<rectangle>
+		<pos>(500, 450)</pos>
+		<colour>(100, 200, 200)</colour>
+		<bounce>0.200000</bounce>
+		<width>250</width>
+		<height>100</height>
+		<keyframes>
+			<keyframe frame = "200">
+				<pos_x>400</pos_x>
+				<pos_y>100</pos_y>
+				<colour_r>None</colour_r>
+				<colour_g>None</colour_g>
+				<colour_b>None</colour_b>
+				<bounce>None</bounce>
+				<width>400.0</width>
+				<height>None</height>
+				<interpolationtype>cosine</interpolationtype>
+			</keyframe>
+			<keyframe frame = "300">
+				<pos_x>None</pos_x>
+				<pos_y>None</pos_y>
+				<colour_r>255</colour_r>
+				<colour_g>0</colour_g>
+				<colour_b>0</colour_b>
+				<bounce>None</bounce>
+				<width>None</width>
+				<height>None</height>
+				<interpolationtype>linear</interpolationtype>
+			</keyframe>
+		</keyframes>
+	</rectangle>
+
+	<boundaryline>
+		<pos>(700, 500)</pos>
+		<colour>(0, 0, 0)</colour>
+		<bounce>0.100000</bounce>
+		<normal>(-0.707107, -0.707107)</normal>
+		<keyframes>
+			<keyframe frame = "300">
+				<pos_x>None</pos_x>
+				<pos_y>None</pos_y>
+				<colour_r>None</colour_r>
+				<colour_g>None</colour_g>
+				<colour_b>None</colour_b>
+				<bounce>None</bounce>
+				<normal_x>-0.8944271909999159</normal_x>
+				<normal_y>-0.4472135954999579</normal_y>
+				<interpolationtype>linear</interpolationtype>
+			</keyframe>
+			<keyframe frame = "500">
+				<pos_x>None</pos_x>
+				<pos_y>None</pos_y>
+				<colour_r>None</colour_r>
+				<colour_g>None</colour_g>
+				<colour_b>None</colour_b>
+				<bounce>None</bounce>
+				<normal_x>-1</normal_x>
+				<normal_y>0</normal_y>
+				<interpolationtype>linear</interpolationtype>
+			</keyframe>
+		</keyframes>
+	</boundaryline>
+
+	<boundaryline>
+		<pos>(0, 600)</pos>
+		<colour>(0, 0, 0)</colour>
+		<bounce>0.100000</bounce>
+		<normal>(0.000000, -1.000000)</normal>
+		<keyframes>
+		</keyframes>
+	</boundaryline>
+
+	<boundaryline>
+		<pos>(0, 600)</pos>
+		<colour>(0, 0, 0)</colour>
+		<bounce>0.100000</bounce>
+		<normal>(1.000000, 0.000000)</normal>
+		<keyframes>
+		</keyframes>
+	</boundaryline>
+
+</effect>
